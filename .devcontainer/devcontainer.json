@@ -1,0 +1,8 @@
+{
+  "name": "mame97-gk-agent",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm ci --no-audit --no-fund",
+  "postStartCommand": "sh .devcontainer/start-agent.sh",
+  "forwardPorts": [8787],
+  "portsAttributes": { "8787": { "label": "gatekeeper-agent", "visibility": "public" } }
+}
