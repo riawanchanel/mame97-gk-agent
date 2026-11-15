@@ -1,0 +1,18 @@
+{
+  "name": "mame97-gk-gatekeeper-agent",
+  "version": "1.0.0",
+  "description": "Proof Gatekeeper agent endpoint for zkVerify Agent Games (MAME97-GK)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node selftest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-sha3": "^0.9.3",
+    "snarkjs": "^0.7.5"
+  },
+  "private": true
+}
